@@ -1,0 +1,300 @@
+object FInformes: TFInformes
+  Left = 467
+  Top = 185
+  Caption = 'Informes de Gesti'#243'n'
+  ClientHeight = 533
+  ClientWidth = 548
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 548
+    Height = 533
+    Align = alClient
+    TabOrder = 0
+    object SpeedButtonAceptar: TSpeedButton
+      Left = 140
+      Top = 477
+      Width = 88
+      Height = 26
+      Caption = 'Aceptar'
+      Glyph.Data = {
+        36040000424D3604000000000000360000002800000010000000100000000100
+        2000000000000004000000000000000000000000000000000000FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF000000FF0000000000FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF000000FF000000FFBF0000FF00000000BFFF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF000000FF000000FFBF0000FF00000000BFFF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF000000FF000000FF000000FFBF0000FF000000FFBF00000000FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF000000FF000000FFBF0000FF000000FFBF0000FF000000FFBF00000000FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF007F7F
+        7F000000FF3F0000FFBF00000000FF00FF000000FF000000FFBF0000FF000000
+        00BFFF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF007F7F7F000000
+        FF3F00000000FF00FF00FF00FF00FF00FF00FF00FF000000FF000000FF000000
+        00BFFF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF000000FF000000FF000000
+        FFBF00000000FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF000000FF000000
+        FFBF00000000FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF000000
+        FF000000FF00000000BFFF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF007F7F7F000000FF3F00000000FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF007F7F7F000000FF3F000000BFFF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF000000FF000000FF00000000BFFF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00}
+      ParentShowHint = False
+      ShowHint = True
+      OnClick = Aceptar
+    end
+    object SpeedButtonCancelar: TSpeedButton
+      Left = 341
+      Top = 477
+      Width = 86
+      Height = 26
+      Caption = 'Cancelar'
+      Glyph.Data = {
+        36040000424D3604000000000000360000002800000010000000100000000100
+        2000000000000004000000000000000000000000000000000000FF00FFBFFF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF0000000000FFFFFF00FF00FF00FF00
+        FF00FF00FF00FF00FF0000000000FFFFFF00FF00FFBFFF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00000000000000000000000000FFFFFF00FF00FFBFFF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF0000000000FFFFFF00FF00FFBFFF00FF00FF00
+        FF00FF00FF00000000000000000000000000FFFFFF00FF00FFBFFF00FF00FF00
+        FF00FF00FF00FF00FF0000000000FFFFFF00FF00FFBFFF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00000000000000000000000000FFFFFF00FF00FFBFFF00
+        FF00FF00FF000000000000000000FFFFFF00FF00FFBFFF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00000000000000000000000000FFFFFF00FF00
+        FFBF0000000000000000FFFFFF00FF00FFBFFF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF000000000000000000000000000000
+        000000000000FFFFFF00FF00FFBFFF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF0000000000000000000000
+        0000FFFFFF00FF00FFBFFF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF000000000000000000000000000000
+        000000000000FFFFFF00FF00FFBFFF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00000000000000000000000000FFFFFF00FF00
+        FFBF00000000FFFFFF00FF00FFBFFF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF0000000000000000000000000000000000FFFFFF00FF00FFBFFF00
+        FF00FF00FF000000000000000000FFFFFF00FF00FFBFFF00FF00FF00FFBFFF00
+        FF0000000000000000000000000000000000FFFFFF00FF00FFBFFF00FF00FF00
+        FF00FF00FF00FF00FF000000000000000000FFFFFF00FF00FFBFFF00FF00FF00
+        FF000000000000000000FFFFFF00FF00FFBFFF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF000000000000000000FFFFFF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
+        FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00}
+      ParentShowHint = False
+      ShowHint = True
+      OnClick = Cancelar
+    end
+    object GroupBox2: TGroupBox
+      Left = 51
+      Top = 142
+      Width = 459
+      Height = 58
+      Caption = 'Zona'
+      TabOrder = 1
+      object Zona: TnbLabel
+        Left = 45
+        Top = 20
+        Width = 86
+        Height = 21
+        Caption = 'Desde'
+        About = 'NB 0.1/20020725'
+      end
+      object nbLabel3: TnbLabel
+        Left = 245
+        Top = 20
+        Width = 86
+        Height = 21
+        Caption = 'Hasta'
+        About = 'NB 0.1/20020725'
+      end
+      object cZonaDes: TEdit
+        Left = 145
+        Top = 20
+        Width = 21
+        Height = 21
+        MaxLength = 2
+        TabOrder = 0
+        Text = '0'
+      end
+      object cZonaHas: TEdit
+        Left = 345
+        Top = 20
+        Width = 21
+        Height = 21
+        MaxLength = 2
+        TabOrder = 1
+        Text = '9'
+      end
+    end
+    object GroupBox1: TGroupBox
+      Left = 51
+      Top = 222
+      Width = 459
+      Height = 58
+      Caption = 'Cliente'
+      TabOrder = 2
+      object nbLabel1: TnbLabel
+        Left = 45
+        Top = 20
+        Width = 86
+        Height = 21
+        Caption = 'Desde'
+        About = 'NB 0.1/20020725'
+      end
+      object nbLabel2: TnbLabel
+        Left = 251
+        Top = 20
+        Width = 86
+        Height = 21
+        Caption = 'Hasta'
+        About = 'NB 0.1/20020725'
+      end
+      object cClienteDes: TEdit
+        Left = 145
+        Top = 20
+        Width = 81
+        Height = 21
+        MaxLength = 12
+        TabOrder = 0
+        Text = '0'
+      end
+      object cClienteHas: TEdit
+        Left = 345
+        Top = 20
+        Width = 81
+        Height = 21
+        MaxLength = 12
+        TabOrder = 1
+        Text = '999999999999'
+      end
+    end
+    object GroupBox3: TGroupBox
+      Left = 51
+      Top = 379
+      Width = 459
+      Height = 58
+      Caption = 'Direccion'
+      TabOrder = 4
+      object cFiscal: TnbRadioButton
+        Left = 108
+        Top = 21
+        Width = 100
+        Height = 21
+        Cursor = crHandPoint
+        Caption = 'Fiscal'
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 0
+      end
+      object cSuministro: TnbRadioButton
+        Left = 284
+        Top = 21
+        Width = 121
+        Height = 21
+        Cursor = crHandPoint
+        Caption = 'Suministro'
+        Checked = True
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 1
+        TabStop = True
+      end
+    end
+    object GroupBox4: TGroupBox
+      Left = 53
+      Top = 298
+      Width = 457
+      Height = 58
+      Caption = 'Tipo Informe'
+      TabOrder = 3
+      object cNota: TnbRadioButton
+        Left = 19
+        Top = 22
+        Width = 100
+        Height = 21
+        Cursor = crHandPoint
+        Caption = 'Nota Informativa'
+        Checked = True
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 0
+        TabStop = True
+      end
+      object cCarta: TnbRadioButton
+        Left = 157
+        Top = 22
+        Width = 142
+        Height = 21
+        Cursor = crHandPoint
+        Caption = 'Cartas Notificaci'#243'n (Ayto.)'
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 1
+      end
+      object cCartaSinAyto: TnbRadioButton
+        Left = 329
+        Top = 22
+        Width = 121
+        Height = 21
+        Cursor = crHandPoint
+        Caption = 'Cartas Notificaci'#243'n  '
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 2
+      end
+    end
+    object GroupBox5: TGroupBox
+      Left = 51
+      Top = 40
+      Width = 457
+      Height = 79
+      Caption = 'Empresa'
+      TabOrder = 0
+      object cEmpresa: TComboBox
+        Left = 88
+        Top = 32
+        Width = 297
+        Height = 21
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ItemHeight = 13
+        ParentFont = False
+        TabOrder = 0
+        OnChange = cEmpresaChange
+        OnEnter = cEmpresaEnter
+        OnExit = cEmpresaExit
+      end
+    end
+  end
+end

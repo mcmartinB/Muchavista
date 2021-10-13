@@ -1,0 +1,74 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{91ea846d-561a-40b3-a328-5e69f10ddec0}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="Impresion_Doc\ProyectoAguas.dproj" />
+    <Projects Include="MenuPrincipal\MenuPrincipal.dproj" />
+    <Projects Include="Muchavista\Fuentes\GestionInformes.dproj" />
+    <Projects Include="Muchavista\LynxView\Fuentes\ProjectClientes.dproj" />
+    <Projects Include="SEPA_XML\GeneradorSepa.dproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="GestionInformes">
+    <MSBuild Projects="Muchavista\Fuentes\GestionInformes.dproj" Targets="" />
+  </Target>
+  <Target Name="GestionInformes:Clean">
+    <MSBuild Projects="Muchavista\Fuentes\GestionInformes.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="GestionInformes:Make">
+    <MSBuild Projects="Muchavista\Fuentes\GestionInformes.dproj" Targets="Make" />
+  </Target>
+  <Target Name="ProyectoAguas">
+    <MSBuild Projects="Impresion_Doc\ProyectoAguas.dproj" Targets="" />
+  </Target>
+  <Target Name="ProyectoAguas:Clean">
+    <MSBuild Projects="Impresion_Doc\ProyectoAguas.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="ProyectoAguas:Make">
+    <MSBuild Projects="Impresion_Doc\ProyectoAguas.dproj" Targets="Make" />
+  </Target>
+  <Target Name="MenuPrincipal">
+    <MSBuild Projects="MenuPrincipal\MenuPrincipal.dproj" Targets="" />
+  </Target>
+  <Target Name="MenuPrincipal:Clean">
+    <MSBuild Projects="MenuPrincipal\MenuPrincipal.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="MenuPrincipal:Make">
+    <MSBuild Projects="MenuPrincipal\MenuPrincipal.dproj" Targets="Make" />
+  </Target>
+  <Target Name="ProjectClientes">
+    <MSBuild Projects="Muchavista\LynxView\Fuentes\ProjectClientes.dproj" Targets="" />
+  </Target>
+  <Target Name="ProjectClientes:Clean">
+    <MSBuild Projects="Muchavista\LynxView\Fuentes\ProjectClientes.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="ProjectClientes:Make">
+    <MSBuild Projects="Muchavista\LynxView\Fuentes\ProjectClientes.dproj" Targets="Make" />
+  </Target>
+  <Target Name="GeneradorSepa">
+    <MSBuild Projects="SEPA_XML\GeneradorSepa.dproj" Targets="" />
+  </Target>
+  <Target Name="GeneradorSepa:Clean">
+    <MSBuild Projects="SEPA_XML\GeneradorSepa.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="GeneradorSepa:Make">
+    <MSBuild Projects="SEPA_XML\GeneradorSepa.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="GestionInformes;ProyectoAguas;MenuPrincipal;ProjectClientes;GeneradorSepa" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="GestionInformes:Clean;ProyectoAguas:Clean;MenuPrincipal:Clean;ProjectClientes:Clean;GeneradorSepa:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="GestionInformes:Make;ProyectoAguas:Make;MenuPrincipal:Make;ProjectClientes:Make;GeneradorSepa:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

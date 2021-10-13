@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/03/18 09:41:37.175.pas,C:\proyectos\muchavista\Aguas\Impresion_Doc\Unit1.pas=C:\proyectos\muchavista\Aguas\Impresion_Doc\UEnvioCorreo.pas</Transaction>
+    <Transaction>2019/03/18 10:06:16.433.pas,C:\proyectos\muchavista\Aguas\Impresion_Doc\Unit1.pas=C:\proyectos\muchavista\Aguas\Impresion_Doc\UConfig.pas</Transaction>
+    <Transaction>2019/03/18 14:52:43.080.pas,C:\proyectos\muchavista\Aguas\Impresion_Doc\URFichaLectura.pas=C:\proyectos\muchavista\Aguas\Impresion_Doc\URFichaLecturaEmail.pas</Transaction>
+    <Transaction>2019/03/18 14:52:43.080.dfm,C:\proyectos\muchavista\Aguas\Impresion_Doc\URFichaLectura.dfm=C:\proyectos\muchavista\Aguas\Impresion_Doc\URFichaLecturaEmail.dfm</Transaction>
+    <Transaction>2019/03/18 15:22:50.638.pas,C:\proyectos\muchavista\Aguas\Impresion_Doc\URFichaLecturaEmail.pas=</Transaction>
+    <Transaction>2019/03/18 15:22:50.639.dfm,C:\proyectos\muchavista\Aguas\Impresion_Doc\URFichaLecturaEmail.dfm=</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/11/26 12:47:52.564.pas,C:\Users\Propietario\Documents\RAD Studio\Projects\Unit1.pas=C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\Clientes.pas</Transaction>
+    <Transaction>2018/11/26 12:47:52.564.dfm,C:\Users\Propietario\Documents\RAD Studio\Projects\Unit1.dfm=C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\Clientes.dfm</Transaction>
+    <Transaction>2018/11/26 12:48:16.005.dproj,C:\Users\Propietario\Documents\RAD Studio\Projects\Project1.dproj=C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\ProjectClientes.dproj</Transaction>
+    <Transaction>2018/11/28 12:08:54.637.pas,C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\Unit1.pas=C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\ClasesCliente.pas</Transaction>
+    <Transaction>2018/11/29 08:32:11.692.pas,C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\Unit1.pas=C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\ClasesOtras.pas</Transaction>
+    <Transaction>2018/11/29 09:16:03.250.pas,C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\Unit1.pas=C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\ProcedimientosFunciones.pas</Transaction>
+    <Transaction>2018/11/29 09:26:08.899.pas,C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\Unit1.pas=C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\VariablesConstantes.pas</Transaction>
+    <Transaction>2018/11/29 09:36:23.424.pas,C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\VariablesConstantes.pas=C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\ConstantesAplicacion.pas</Transaction>
+    <Transaction>2018/11/29 09:37:10.064.pas,C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\Unit1.pas=C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\VariablesAplicacion.pas</Transaction>
+    <Transaction>2018/11/29 09:38:14.867.pas,C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\VariablesAplicacion.pas=C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\AplicacionVariables.pas</Transaction>
+    <Transaction>2018/11/29 09:38:49.031.pas,C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\ConstantesAplicacion.pas=C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\AplicacionConstantes.pas</Transaction>
+    <Transaction>2018/11/29 09:48:00.521.pas,C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\ProcedimientosFunciones.pas=C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\AplicacionProcedimientosFunciones.pas</Transaction>
+    <Transaction>2018/11/30 12:42:14.196.pas,C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\Unit2.pas=C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\FormularioBase.pas</Transaction>
+    <Transaction>2018/11/30 12:42:14.196.dfm,C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\Unit2.dfm=C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\FormularioBase.dfm</Transaction>
+    <Transaction>2018/12/04 11:35:08.330.pas,C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\Unit1.pas=C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\ClienteAnadirModificar.pas</Transaction>
+    <Transaction>2018/12/04 11:35:08.330.dfm,C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\Unit1.dfm=C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\ClienteAnadirModificar.dfm</Transaction>
+    <Transaction>2019/01/31 08:27:10.895.pas,C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\Unit1.pas=C:\proyectos\muchavista\Aguas\Muchavista\LynxView\Fuentes\Busqueda.pas</Transaction>
+  </Transactions>
+</BorlandProject>
